@@ -15,7 +15,7 @@
               <span>通讯管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/PermList">通讯列表</el-menu-item>
+              <el-menu-item index="/contacts">通讯列表</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
         </el-menu>

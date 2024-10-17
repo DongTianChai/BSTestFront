@@ -5,7 +5,7 @@ import Router from 'vue-router'
 
 import index from '@/components/index/Index'
 
-import permList from "@/components/user/PermList.vue";
+import contacts from "@/components/user/contacts.vue";
 Vue.use(Router)
 
 export default new Router({
@@ -16,12 +16,12 @@ export default new Router({
       name: 'Index',
       component: index,
 
-      redirect: '/permList', // 设置默认路由
+      redirect: '/contacts', // 设置默认路由
       children:[
         //子路径的path路径不能加“/”
 
 
-        {path:'permList',name:'PermList',component:permList}
+        {path:'contacts',name:'contacts',component:permList}
       ]
     },
 
