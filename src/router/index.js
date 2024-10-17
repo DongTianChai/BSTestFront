@@ -21,7 +21,7 @@ export default new Router({
         //子路径的path路径不能加“/”
 
 
-        {path:'contacts',name:'contacts',component:permList}
+        {path:'contacts',name:'contacts',component:contacts}
       ]
     },
 
